@@ -1,3 +1,7 @@
+/**This script to extract the calendar event from the email
+** and send user just the extracted text as reminder email
+**/
+
 function doGet() {
   return HtmlService.createHtmlOutputFromFile('index');
 }
